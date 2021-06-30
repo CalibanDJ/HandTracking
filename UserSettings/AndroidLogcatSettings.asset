@@ -1,0 +1,287 @@
+{
+    "m_SelectedDeviceId": "3c250eb",
+    "m_SelectedPackage": {
+        "deviceId": "3c250eb",
+        "name": "com.manomotion.arfoundationssdkceexample",
+        "processId": 10068,
+        "exited": false
+    },
+    "m_SelectedPriority": 0,
+    "m_KnownPackagesForSerialization": [
+        {
+            "deviceId": "3c250eb",
+            "name": "com.manomotion.arfoundationssdkceexample",
+            "processId": 24219,
+            "exited": false
+        },
+        {
+            "deviceId": "3c250eb",
+            "name": "com.manomotion.arfoundationssdkceexample",
+            "processId": 27136,
+            "exited": false
+        },
+        {
+            "deviceId": "3c250eb",
+            "name": "com.manomotion.arfoundationssdkceexample",
+            "processId": 13127,
+            "exited": false
+        },
+        {
+            "deviceId": "3c250eb",
+            "name": "com.manomotion.arfoundationssdkceexample",
+            "processId": 16754,
+            "exited": false
+        },
+        {
+            "deviceId": "3c250eb",
+            "name": "com.manomotion.arfoundationssdkceexample",
+            "processId": 17933,
+            "exited": false
+        },
+        {
+            "deviceId": "3c250eb",
+            "name": "com.manomotion.arfoundationssdkceexample",
+            "processId": 32676,
+            "exited": false
+        },
+        {
+            "deviceId": "3c250eb",
+            "name": "com.manomotion.arfoundationssdkceexample",
+            "processId": 28257,
+            "exited": false
+        },
+        {
+            "deviceId": "3c250eb",
+            "name": "com.manomotion.arfoundationssdkceexample",
+            "processId": 30002,
+            "exited": false
+        },
+        {
+            "deviceId": "3c250eb",
+            "name": "com.manomotion.arfoundationssdkceexample",
+            "processId": 32075,
+            "exited": false
+        },
+        {
+            "deviceId": "3c250eb",
+            "name": "com.manomotion.arfoundationssdkceexample",
+            "processId": 697,
+            "exited": false
+        },
+        {
+            "deviceId": "3c250eb",
+            "name": "com.manomotion.arfoundationssdkceexample",
+            "processId": 2532,
+            "exited": false
+        },
+        {
+            "deviceId": "3c250eb",
+            "name": "com.manomotion.arfoundationssdkceexample",
+            "processId": 3726,
+            "exited": false
+        },
+        {
+            "deviceId": "3c250eb",
+            "name": "com.manomotion.arfoundationssdkceexample",
+            "processId": 5752,
+            "exited": false
+        },
+        {
+            "deviceId": "3c250eb",
+            "name": "com.manomotion.arfoundationssdkceexample",
+            "processId": 25247,
+            "exited": false
+        },
+        {
+            "deviceId": "3c250eb",
+            "name": "com.manomotion.arfoundationssdkceexample",
+            "processId": 26915,
+            "exited": false
+        },
+        {
+            "deviceId": "3c250eb",
+            "name": "com.manomotion.arfoundationssdkceexample",
+            "processId": 31527,
+            "exited": false
+        },
+        {
+            "deviceId": "3c250eb",
+            "name": "com.manomotion.arfoundationssdkceexample",
+            "processId": 32723,
+            "exited": false
+        },
+        {
+            "deviceId": "3c250eb",
+            "name": "com.manomotion.arfoundationssdkceexample",
+            "processId": 3607,
+            "exited": false
+        },
+        {
+            "deviceId": "3c250eb",
+            "name": "com.manomotion.arfoundationssdkceexample",
+            "processId": 6985,
+            "exited": false
+        },
+        {
+            "deviceId": "3c250eb",
+            "name": "com.manomotion.arfoundationssdkceexample",
+            "processId": 8976,
+            "exited": false
+        },
+        {
+            "deviceId": "3c250eb",
+            "name": "com.manomotion.arfoundationssdkceexample",
+            "processId": 10989,
+            "exited": false
+        },
+        {
+            "deviceId": "3c250eb",
+            "name": "com.manomotion.arfoundationssdkceexample",
+            "processId": 12105,
+            "exited": false
+        },
+        {
+            "deviceId": "3c250eb",
+            "name": "com.manomotion.arfoundationssdkceexample",
+            "processId": 3963,
+            "exited": false
+        },
+        {
+            "deviceId": "3c250eb",
+            "name": "com.manomotion.arfoundationssdkceexample",
+            "processId": 6934,
+            "exited": false
+        },
+        {
+            "deviceId": "3c250eb",
+            "name": "com.manomotion.arfoundationssdkceexample",
+            "processId": 8782,
+            "exited": false
+        },
+        {
+            "deviceId": "3c250eb",
+            "name": "com.manomotion.arfoundationssdkceexample",
+            "processId": 19833,
+            "exited": false
+        },
+        {
+            "deviceId": "3c250eb",
+            "name": "com.manomotion.arfoundationssdkceexample",
+            "processId": 21814,
+            "exited": false
+        },
+        {
+            "deviceId": "3c250eb",
+            "name": "com.manomotion.arfoundationssdkceexample",
+            "processId": 23663,
+            "exited": false
+        },
+        {
+            "deviceId": "3c250eb",
+            "name": "com.manomotion.arfoundationssdkceexample",
+            "processId": 25001,
+            "exited": false
+        },
+        {
+            "deviceId": "3c250eb",
+            "name": "com.manomotion.arfoundationssdkceexample",
+            "processId": 25531,
+            "exited": false
+        },
+        {
+            "deviceId": "3c250eb",
+            "name": "com.manomotion.arfoundationssdkceexample",
+            "processId": 28222,
+            "exited": false
+        },
+        {
+            "deviceId": "3c250eb",
+            "name": "com.manomotion.arfoundationssdkceexample",
+            "processId": 29089,
+            "exited": false
+        },
+        {
+            "deviceId": "3c250eb",
+            "name": "com.manomotion.arfoundationssdkceexample",
+            "processId": 30017,
+            "exited": false
+        },
+        {
+            "deviceId": "3c250eb",
+            "name": "com.manomotion.arfoundationssdkceexample",
+            "processId": 31010,
+            "exited": false
+        },
+        {
+            "deviceId": "3c250eb",
+            "name": "com.manomotion.arfoundationssdkceexample",
+            "processId": 31781,
+            "exited": false
+        },
+        {
+            "deviceId": "3c250eb",
+            "name": "com.manomotion.arfoundationssdkceexample",
+            "processId": 32607,
+            "exited": false
+        },
+        {
+            "deviceId": "3c250eb",
+            "name": "com.manomotion.arfoundationssdkceexample",
+            "processId": 10068,
+            "exited": false
+        }
+    ],
+    "m_Tags": {
+        "m_Entries": [
+            {
+                "m_Name": "Filter by all listed tags",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "No Filter",
+                "m_Selected": true
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Tag Control...",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Unity",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "CRASH",
+                "m_Selected": false
+            }
+        ]
+    },
+    "m_MemoryViewerState": {
+        "MemoryWindowHeight": 300.0,
+        "MemoryWindowWidth": 170.0,
+        "MemoryTypeEnabled": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ],
+        "MemoryGroup": 2,
+        "Behavior": 0
+    },
+    "m_Filter": "",
+    "m_FilterIsRegularExpression": false,
+    "m_SymbolPaths": []
+}
