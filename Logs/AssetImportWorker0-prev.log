@@ -1,0 +1,1081 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.7f1 (d91830b65d9b) revision 14227504'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1052; Version 2009; 64bit' Language: 'fr' Physical Memory: 16330 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+B:/Users/Julian/Documents/GitHub/prog web/HandTracking
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61524
+Successfully changed project path to: B:/Users/Julian/Documents/GitHub/prog web/HandTracking
+B:/Users/Julian/Documents/GitHub/prog web/HandTracking
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 109.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.7f1 (d91830b65d9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path B:/Users/Julian/Documents/GitHub/prog web/HandTracking/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   NVIDIA
+    VRAM:     6052 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56712
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
+Registered in 0.003065 seconds.
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 111.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.515 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003688 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image B:\Users\Julian\Documents\GitHub\prog web\HandTracking\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image B:\Users\Julian\Documents\GitHub\prog web\HandTracking\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Setting up ManoMotion Library Requirements
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ManoMotionSetup:.cctor () (at Assets/Editor/ManoMotionSetup.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Editor/ManoMotionSetup.cs Line: 21)
+
+Successfully set up ManoMotion Library Requirements
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ManoMotionSetup:.cctor () (at Assets/Editor/ManoMotionSetup.cs:34)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Editor/ManoMotionSetup.cs Line: 34)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.277 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3199 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.5 MB.
+System memory in use after: 122.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3655.
+Total: 2.578900 ms (FindLiveObjects: 0.253600 ms CreateObjectMapping: 0.187200 ms MarkObjects: 2.044400 ms  DeleteObjects: 0.092600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/BrickCube.fbx
+  artifactKey: Guid(9f069be49b8a7994b99aa90e1029e8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrickCube.fbx using Guid(9f069be49b8a7994b99aa90e1029e8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd620f6cb5855e203e0b36da5877399ee') in 0.273942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.314211 seconds.
+  path: Assets/ExplodeBrickCube.fbx
+  artifactKey: Guid(109b30fd4ead0a24c94fb46c054bb5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplodeBrickCube.fbx using Guid(109b30fd4ead0a24c94fb46c054bb5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '908be7909e75e40cfcefa91a1629cbda') in 0.043027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 264.118299 seconds.
+  path: Assets/MarioCubeController.cs
+  artifactKey: Guid(edf07c3fba8389b4282c08ca7d4d40d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MarioCubeController.cs using Guid(edf07c3fba8389b4282c08ca7d4d40d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135362242412a887d38c2a5da5030f0b') in 0.024431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39761.119100 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(786dbd0af07b41746bd417a1451f2f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(786dbd0af07b41746bd417a1451f2f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be230ce1563c677671bc64b31e22e89') in 0.037805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.143763 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(e29ce332300db744fb9f411c0374490d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(e29ce332300db744fb9f411c0374490d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae94a03282bf50d1f6f48c3254551d56') in 0.052281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.228502 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b391d6ca60550064e803d9d09b4b83b') in 0.030073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 112.473536 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(4f9884a5d194c5e4bb281dfba1083452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(4f9884a5d194c5e4bb281dfba1083452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e782764d1ac963f96f21ff230030f00b') in 0.032411 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004115 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image B:\Users\Julian\Documents\GitHub\prog web\HandTracking\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image B:\Users\Julian\Documents\GitHub\prog web\HandTracking\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Setting up ManoMotion Library Requirements
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ManoMotionSetup:.cctor () (at Assets/Editor/ManoMotionSetup.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Editor/ManoMotionSetup.cs Line: 21)
+
+Successfully set up ManoMotion Library Requirements
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ManoMotionSetup:.cctor () (at Assets/Editor/ManoMotionSetup.cs:34)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Editor/ManoMotionSetup.cs Line: 34)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.600 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3170 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.8 MB.
+System memory in use after: 124.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3703.
+Total: 4.767900 ms (FindLiveObjects: 0.318800 ms CreateObjectMapping: 0.692400 ms MarkObjects: 3.626000 ms  DeleteObjects: 0.128700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005579 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image B:\Users\Julian\Documents\GitHub\prog web\HandTracking\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image B:\Users\Julian\Documents\GitHub\prog web\HandTracking\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Setting up ManoMotion Library Requirements
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ManoMotionSetup:.cctor () (at Assets/Editor/ManoMotionSetup.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Editor/ManoMotionSetup.cs Line: 21)
+
+Successfully set up ManoMotion Library Requirements
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ManoMotionSetup:.cctor () (at Assets/Editor/ManoMotionSetup.cs:34)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Editor/ManoMotionSetup.cs Line: 34)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.823 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3170 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.9 MB.
+System memory in use after: 124.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3707.
+Total: 4.064700 ms (FindLiveObjects: 0.276400 ms CreateObjectMapping: 0.433400 ms MarkObjects: 3.312100 ms  DeleteObjects: 0.041300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 89.134327 seconds.
+  path: Assets/Scripts/MainMenu.cs
+  artifactKey: Guid(7b7aac787b99513479f01727eaba97c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenu.cs using Guid(7b7aac787b99513479f01727eaba97c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48b5d4a003f97a91a21277ac41451a3') in 0.006990 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003658 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image B:\Users\Julian\Documents\GitHub\prog web\HandTracking\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image B:\Users\Julian\Documents\GitHub\prog web\HandTracking\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Setting up ManoMotion Library Requirements
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ManoMotionSetup:.cctor () (at Assets/Editor/ManoMotionSetup.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Editor/ManoMotionSetup.cs Line: 21)
+
+Successfully set up ManoMotion Library Requirements
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ManoMotionSetup:.cctor () (at Assets/Editor/ManoMotionSetup.cs:34)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Editor/ManoMotionSetup.cs Line: 34)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.359 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3170 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.9 MB.
+System memory in use after: 124.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3711.
+Total: 2.443300 ms (FindLiveObjects: 0.266700 ms CreateObjectMapping: 0.156500 ms MarkObjects: 1.946500 ms  DeleteObjects: 0.072800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.1 MB.
+System memory in use after: 61.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3712.
+Total: 4.609300 ms (FindLiveObjects: 0.325200 ms CreateObjectMapping: 0.196000 ms MarkObjects: 4.035600 ms  DeleteObjects: 0.050900 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.0 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3712.
+Total: 3.028500 ms (FindLiveObjects: 0.273100 ms CreateObjectMapping: 0.178800 ms MarkObjects: 2.559300 ms  DeleteObjects: 0.015800 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.0 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3712.
+Total: 5.702400 ms (FindLiveObjects: 0.273700 ms CreateObjectMapping: 0.173100 ms MarkObjects: 5.236600 ms  DeleteObjects: 0.017400 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.0 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3712.
+Total: 7.955000 ms (FindLiveObjects: 0.251100 ms CreateObjectMapping: 0.297800 ms MarkObjects: 7.387600 ms  DeleteObjects: 0.016900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2133.187119 seconds.
+  path: Assets/ManoMotion ARFoundation/Examples/Inetraction/Prefabs/AR Cube.prefab
+  artifactKey: Guid(4f156e3e385c5324ba162c4e0c130a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ManoMotion ARFoundation/Examples/Inetraction/Prefabs/AR Cube.prefab using Guid(4f156e3e385c5324ba162c4e0c130a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9089172efd9e5b4771e8a4e007bb6fd4') in 0.179931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000830 seconds.
+  path: Assets/Resources/cube.png
+  artifactKey: Guid(6bbadfe1b01ba5c48be95d0199d724bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cube.png using Guid(6bbadfe1b01ba5c48be95d0199d724bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb77b20fb5ae9cdc74dc520d565f335') in 0.057906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000600 seconds.
+  path: Assets/Manomotion/Examples/Blocks/Prefabs/Cube.prefab
+  artifactKey: Guid(6e606dd4d94c34de6b00a0f3d2477544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manomotion/Examples/Blocks/Prefabs/Cube.prefab using Guid(6e606dd4d94c34de6b00a0f3d2477544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '300dc9cb4f2488152b635a5930ef7b11') in 0.023558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.890746 seconds.
+  path: Assets/Resources/background.jpg
+  artifactKey: Guid(f45c641586d4aa340a36683e6244dd9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/background.jpg using Guid(f45c641586d4aa340a36683e6244dd9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f13c65f666461426274f29947724cf') in 0.049201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000796 seconds.
+  path: Assets/Resources/LogoApp.png
+  artifactKey: Guid(b0f7e44d39ef1da48a57a6e2a63b5f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LogoApp.png using Guid(b0f7e44d39ef1da48a57a6e2a63b5f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8d49d05f0d828af3358739543b10bc') in 0.046891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.004811 seconds.
+  path: Assets/XR/Loaders/AR Core Loader.asset
+  artifactKey: Guid(532c0d272b2e0c742acd0ab72ffecad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders/AR Core Loader.asset using Guid(532c0d272b2e0c742acd0ab72ffecad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b82623f8dd78627a420ed21f97b348b') in 0.210742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000665 seconds.
+  path: Assets/Manomotion/Sprites/squareSprite.png
+  artifactKey: Guid(804cdabeeb529a84ea374365586ff715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manomotion/Sprites/squareSprite.png using Guid(804cdabeeb529a84ea374365586ff715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7631919f5184c60e4e8dcc60a07d9f3') in 0.039355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000861 seconds.
+  path: Assets/Manomotion/Fonts/Ignis/Ignis et Glacies Sharp Bold.ttf
+  artifactKey: Guid(67e6ef4b7e535451db9782bb61e50378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manomotion/Fonts/Ignis/Ignis et Glacies Sharp Bold.ttf using Guid(67e6ef4b7e535451db9782bb61e50378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d1e7fe1f8be948358453fad74ef5f4') in 0.073603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000535 seconds.
+  path: Assets/Nokobot/GreekTemple - Vases (Free)/04_Textures/Marble Floor/marble_01_nor_1k.png
+  artifactKey: Guid(a99afc1eb7e64db428860ed906283a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/GreekTemple - Vases (Free)/04_Textures/Marble Floor/marble_01_nor_1k.png using Guid(a99afc1eb7e64db428860ed906283a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6844e6ee753b8bb1634a64e2a82f79') in 0.086097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000720 seconds.
+  path: Assets/Nokobot/GreekTemple - Vases (Free)/04_Textures/Marble Floor/marble_01_diff_1k.png
+  artifactKey: Guid(2d1a29100fb35b7438e00ce99b807d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/GreekTemple - Vases (Free)/04_Textures/Marble Floor/marble_01_diff_1k.png using Guid(2d1a29100fb35b7438e00ce99b807d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcebcacab87a92208a29058f2c677a8e') in 0.112185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Assets/Manomotion/Sprites/Logos/SDK_CE_LogoSquare-01.png
+  artifactKey: Guid(aa8dfcd1daf9041e1b6c8d75bdfec474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manomotion/Sprites/Logos/SDK_CE_LogoSquare-01.png using Guid(aa8dfcd1daf9041e1b6c8d75bdfec474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70eb2403d932d296d2e0c9a17d7c7064') in 0.116331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Assets/XR/Settings/AR Core Settings.asset
+  artifactKey: Guid(b85c2634e25854b4e925ab834a5c72ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/AR Core Settings.asset using Guid(b85c2634e25854b4e925ab834a5c72ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a7777fd5854ca7d0cf9d192e993c3b') in 0.009198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000590 seconds.
+  path: Assets/Manomotion/Fonts/Ignis/Ignis et Glacies Sharp Italic.ttf
+  artifactKey: Guid(022659e21c51d4f9dade287b8e948c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manomotion/Fonts/Ignis/Ignis et Glacies Sharp Italic.ttf using Guid(022659e21c51d4f9dade287b8e948c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f319666746bac44254f51c63ee33af25') in 0.019090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000499 seconds.
+  path: Assets/Manomotion/Fonts/Ignis/Ignis et Glacies Sharp.ttf
+  artifactKey: Guid(cc91cc89e7ff74cdd8e662d1783c96fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manomotion/Fonts/Ignis/Ignis et Glacies Sharp.ttf using Guid(cc91cc89e7ff74cdd8e662d1783c96fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '758ca3c250ac2c126fc4062959196273') in 0.066338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001012 seconds.
+  path: Assets/Nokobot/GreekTemple - Vases (Free)/04_Textures/Marble Floor/marble_01_AO_1k.png
+  artifactKey: Guid(03841fa144a437441ab78f0e229dc622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/GreekTemple - Vases (Free)/04_Textures/Marble Floor/marble_01_AO_1k.png using Guid(03841fa144a437441ab78f0e229dc622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f909538fb718495193227f2aa0d066') in 0.088583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000493 seconds.
+  path: Assets/Manomotion/Fonts/montserrat/MontserratAlternates-Regular.otf
+  artifactKey: Guid(b4f805873fc7ed44280e3fb48560a15e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manomotion/Fonts/montserrat/MontserratAlternates-Regular.otf using Guid(b4f805873fc7ed44280e3fb48560a15e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82de1752465daef57176b6ce7e80d3c4') in 0.079035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000723 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/SplashScreen/Logo/Dark_Silhouette.png
+  artifactKey: Guid(214f7e62633ee4585a55b459cc6d0f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-chan!/Unity-chan! Model/SplashScreen/Logo/Dark_Silhouette.png using Guid(214f7e62633ee4585a55b459cc6d0f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d02e2bdaab309b3449367ec6b1723f') in 0.116889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001154 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Light to Dark Green - Vertical.asset
+  artifactKey: Guid(5cf8ae092ca54931b443bec5148f3c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Light to Dark Green - Vertical.asset using Guid(5cf8ae092ca54931b443bec5148f3c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb49a6c8b6a871e83bb1fb867fd9c02') in 0.010989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000651 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Documentation/UnityChanLicense2.0/License Logo/Others/png/Dark_Silhouette.png
+  artifactKey: Guid(e534fa5e8d6bad340bbc9196dabe6f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-chan!/Unity-chan! Model/Documentation/UnityChanLicense2.0/License Logo/Others/png/Dark_Silhouette.png using Guid(e534fa5e8d6bad340bbc9196dabe6f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c7f7dd7f082e6d7c77012d30fe6265') in 0.112317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001372 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset
+  artifactKey: Guid(4c86a3366cd840348ebe8dc438570ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset using Guid(4c86a3366cd840348ebe8dc438570ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae211fe08bafc04a96ba902d33150e2') in 0.005474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001117 seconds.
+  path: Assets/Manomotion/Prefabs/Instructions/InstructionCard.prefab
+  artifactKey: Guid(ed074358255e846ab89db938e5c254ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manomotion/Prefabs/Instructions/InstructionCard.prefab using Guid(ed074358255e846ab89db938e5c254ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f121bab73f880c89186927e9c0816f8') in 0.044135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/Manomotion/Sprites/ButtonShellLarge.png
+  artifactKey: Guid(d7a8824cdb243ce4aaaf6c35d9ae6c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manomotion/Sprites/ButtonShellLarge.png using Guid(d7a8824cdb243ce4aaaf6c35d9ae6c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0fa5971460c677a6cd764d31bcc1f7c') in 0.022399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000644 seconds.
+  path: Assets/Manomotion/Sprites/Logos/SDK_CE_ARLogoSquare-01.png
+  artifactKey: Guid(3ac05451490e81f468209d7be78b609f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manomotion/Sprites/Logos/SDK_CE_ARLogoSquare-01.png using Guid(3ac05451490e81f468209d7be78b609f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe2fdda3c3160ef65d2ed30f1ee8bb5') in 0.094987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005677 seconds.
+  path: Assets/Manomotion/Fonts/montserrat/Montserrat-Regular.otf
+  artifactKey: Guid(6dbc558cc67e124468939d94449ad1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manomotion/Fonts/montserrat/Montserrat-Regular.otf using Guid(6dbc558cc67e124468939d94449ad1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '176bb871b939523c5b941965e4cdaec8') in 0.054440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000764 seconds.
+  path: Assets/Manomotion/Fonts/Ignis/Ignis et Glacies Sharp BoldItalic.ttf
+  artifactKey: Guid(c3daee327022b4dc891914b279df9c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manomotion/Fonts/Ignis/Ignis et Glacies Sharp BoldItalic.ttf using Guid(c3daee327022b4dc891914b279df9c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7fa8661e8604edd08612f21f9491c2') in 0.017508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/Manomotion/Sprites/Logos/Logo Transparent.png
+  artifactKey: Guid(94941f99fc5e54ff9bd5b5e7595762b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manomotion/Sprites/Logos/Logo Transparent.png using Guid(94941f99fc5e54ff9bd5b5e7595762b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50323c87a27d9d575ffe44a190f4866f') in 0.029679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001910 seconds.
+  path: Assets/Nokobot/GreekTemple - Vases (Free)/04_Textures/Marble Floor/marble_01_rough_1k.png
+  artifactKey: Guid(c4d47c92bce7baf4f9145027deb6c5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/GreekTemple - Vases (Free)/04_Textures/Marble Floor/marble_01_rough_1k.png using Guid(c4d47c92bce7baf4f9145027deb6c5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e8cbb0836fc394cb9f4049a33e5966') in 0.089023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000997 seconds.
+  path: Assets/unity-chan!/Unity-chan! Model/Documentation/UnityChanLicense2.0/License Logo/Others/jpg/Dark_Silhouette.jpg
+  artifactKey: Guid(29ceb9749c224174e9177a5c1ab7a909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity-chan!/Unity-chan! Model/Documentation/UnityChanLicense2.0/License Logo/Others/jpg/Dark_Silhouette.jpg using Guid(29ceb9749c224174e9177a5c1ab7a909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7b6c8d64c32901e48e930143b64132') in 0.069663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000871 seconds.
+  path: Assets/Manomotion/Sprites/ButtonFullLarge.png
+  artifactKey: Guid(e733f09c8234a9048ad05441b4c0cacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manomotion/Sprites/ButtonFullLarge.png using Guid(e733f09c8234a9048ad05441b4c0cacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f5a4d19beade945c0997f1ab690563') in 0.340562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 235.525535 seconds.
+  path: Assets/Prefabs/BrickCube Variant.prefab
+  artifactKey: Guid(d48ca4e500bbae54dbc25c574eb812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BrickCube Variant.prefab using Guid(d48ca4e500bbae54dbc25c574eb812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '168959cef5d4fabfc481082b313e715d') in 0.046041 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.0 MB.
+System memory in use after: 62.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3750.
+Total: 2.983900 ms (FindLiveObjects: 0.253100 ms CreateObjectMapping: 0.172600 ms MarkObjects: 2.524800 ms  DeleteObjects: 0.032300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 165.710936 seconds.
+  path: Assets/Prefabs/BrickCube Variant.prefab
+  artifactKey: Guid(d48ca4e500bbae54dbc25c574eb812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BrickCube Variant.prefab using Guid(d48ca4e500bbae54dbc25c574eb812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9bdabd776bcd4c211cbb5d436ec80fd') in 0.017472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.737936 seconds.
+  path: Assets/Prefabs/BrickCube Variant.prefab
+  artifactKey: Guid(d48ca4e500bbae54dbc25c574eb812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BrickCube Variant.prefab using Guid(d48ca4e500bbae54dbc25c574eb812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d978bd199c927b55e996f0fd9daabcf') in 0.017680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.896730 seconds.
+  path: Assets/Prefabs/BrickCube Variant.prefab
+  artifactKey: Guid(d48ca4e500bbae54dbc25c574eb812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BrickCube Variant.prefab using Guid(d48ca4e500bbae54dbc25c574eb812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d4d4db283b9d0ba6857035b75a12cbf') in 0.039727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.454739 seconds.
+  path: Assets/Prefabs/BrickCube Variant.prefab
+  artifactKey: Guid(d48ca4e500bbae54dbc25c574eb812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BrickCube Variant.prefab using Guid(d48ca4e500bbae54dbc25c574eb812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc39ec664c8b572d62c88cf2efd3f5b') in 0.015694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.564588 seconds.
+  path: Assets/Prefabs/BrickCube Variant.prefab
+  artifactKey: Guid(d48ca4e500bbae54dbc25c574eb812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BrickCube Variant.prefab using Guid(d48ca4e500bbae54dbc25c574eb812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f852463696a9e9f6659feba257e973fc') in 0.013431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.812706 seconds.
+  path: Assets/Prefabs/BrickCube Variant.prefab
+  artifactKey: Guid(d48ca4e500bbae54dbc25c574eb812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BrickCube Variant.prefab using Guid(d48ca4e500bbae54dbc25c574eb812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd992a6518da25dedf943a865519972') in 0.012551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.524768 seconds.
+  path: Assets/Prefabs/BrickCube Variant.prefab
+  artifactKey: Guid(d48ca4e500bbae54dbc25c574eb812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BrickCube Variant.prefab using Guid(d48ca4e500bbae54dbc25c574eb812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750b2deaab237b10320a805dd73f2e75') in 0.014401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.292372 seconds.
+  path: Assets/Prefabs/BrickCube Variant.prefab
+  artifactKey: Guid(d48ca4e500bbae54dbc25c574eb812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BrickCube Variant.prefab using Guid(d48ca4e500bbae54dbc25c574eb812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f38afbfa087d427a9fdb94d3daf4bcb9') in 0.014526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.872812 seconds.
+  path: Assets/Prefabs/BrickCube Variant.prefab
+  artifactKey: Guid(d48ca4e500bbae54dbc25c574eb812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BrickCube Variant.prefab using Guid(d48ca4e500bbae54dbc25c574eb812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cdb5bbd28ced0c160ae3f4c9a2f5739') in 0.014234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.077859 seconds.
+  path: Assets/Prefabs/BrickCube Variant.prefab
+  artifactKey: Guid(d48ca4e500bbae54dbc25c574eb812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BrickCube Variant.prefab using Guid(d48ca4e500bbae54dbc25c574eb812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88a7cb933671d807364a61fa395bad7') in 0.012644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.284926 seconds.
+  path: Assets/Prefabs/BrickCube Variant.prefab
+  artifactKey: Guid(d48ca4e500bbae54dbc25c574eb812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BrickCube Variant.prefab using Guid(d48ca4e500bbae54dbc25c574eb812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '404a7294610e8a1b43fd030633ce5099') in 0.013227 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.1 MB.
+System memory in use after: 62.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3750.
+Total: 4.100600 ms (FindLiveObjects: 0.294100 ms CreateObjectMapping: 0.225400 ms MarkObjects: 3.563000 ms  DeleteObjects: 0.016200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 151.830719 seconds.
+  path: Assets/Prefabs/BrickCube Variant.prefab
+  artifactKey: Guid(d48ca4e500bbae54dbc25c574eb812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BrickCube Variant.prefab using Guid(d48ca4e500bbae54dbc25c574eb812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d545f69fb189643cfdacb34fd8d93e1') in 0.049258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.866703 seconds.
+  path: Assets/Prefabs/BrickCube Variant.prefab
+  artifactKey: Guid(d48ca4e500bbae54dbc25c574eb812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BrickCube Variant.prefab using Guid(d48ca4e500bbae54dbc25c574eb812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c6f886560ed427ad9f3d7e991c23c3') in 0.023332 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.1 MB.
+System memory in use after: 62.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3750.
+Total: 4.622300 ms (FindLiveObjects: 0.358500 ms CreateObjectMapping: 0.355000 ms MarkObjects: 3.892100 ms  DeleteObjects: 0.015800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 265.410105 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(e29ce332300db744fb9f411c0374490d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(e29ce332300db744fb9f411c0374490d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2751deba71908a1054e5f397aa1f0c') in 0.009209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.083765 seconds.
+  path: Assets/Editor/EditorScripts.cs
+  artifactKey: Guid(1351794419168490c9e98c23d11e43a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/EditorScripts.cs using Guid(1351794419168490c9e98c23d11e43a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c4c754ceb19c2baed0927017a4076f') in 0.022364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.025923 seconds.
+  path: Assets/Editor/ManoMotionSetup.cs
+  artifactKey: Guid(32b2b18df58754e7796b88355ecd6033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/ManoMotionSetup.cs using Guid(32b2b18df58754e7796b88355ecd6033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162821c4313aca5eed24507247b0fcab') in 0.005901 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003949 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image B:\Users\Julian\Documents\GitHub\prog web\HandTracking\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image B:\Users\Julian\Documents\GitHub\prog web\HandTracking\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Setting up ManoMotion Library Requirements
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ManoMotionSetup:.cctor () (at Assets/Editor/ManoMotionSetup.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Editor/ManoMotionSetup.cs Line: 21)
+
+Successfully set up ManoMotion Library Requirements
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ManoMotionSetup:.cctor () (at Assets/Editor/ManoMotionSetup.cs:34)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Editor/ManoMotionSetup.cs Line: 34)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.478 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3191 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 165.2 MB.
+System memory in use after: 165.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4062.
+Total: 3.554500 ms (FindLiveObjects: 0.277500 ms CreateObjectMapping: 0.273000 ms MarkObjects: 2.944700 ms  DeleteObjects: 0.057700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004328 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image B:\Users\Julian\Documents\GitHub\prog web\HandTracking\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image B:\Users\Julian\Documents\GitHub\prog web\HandTracking\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Setting up ManoMotion Library Requirements
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ManoMotionSetup:.cctor () (at Assets/Editor/ManoMotionSetup.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Editor/ManoMotionSetup.cs Line: 21)
+
+Successfully set up ManoMotion Library Requirements
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ManoMotionSetup:.cctor () (at Assets/Editor/ManoMotionSetup.cs:34)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Editor/ManoMotionSetup.cs Line: 34)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.203 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3169 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.4 MB.
+System memory in use after: 164.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4065.
+Total: 2.752700 ms (FindLiveObjects: 0.410900 ms CreateObjectMapping: 0.256600 ms MarkObjects: 2.028000 ms  DeleteObjects: 0.056200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.8 MB.
+System memory in use after: 102.1 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 4066.
+Total: 3.337800 ms (FindLiveObjects: 0.380900 ms CreateObjectMapping: 0.408000 ms MarkObjects: 2.527000 ms  DeleteObjects: 0.020500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 288.109157 seconds.
+  path: Assets/Scripts/NewBehaviourScript.cs
+  artifactKey: Guid(2b2748a78868b6f41a33251b70faef1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NewBehaviourScript.cs using Guid(2b2748a78868b6f41a33251b70faef1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420fe13d0595bfcac3f7a5a01be10584') in 0.018836 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003439 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image B:\Users\Julian\Documents\GitHub\prog web\HandTracking\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image B:\Users\Julian\Documents\GitHub\prog web\HandTracking\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Setting up ManoMotion Library Requirements
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ManoMotionSetup:.cctor () (at Assets/Editor/ManoMotionSetup.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Editor/ManoMotionSetup.cs Line: 21)
+
+Successfully set up ManoMotion Library Requirements
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ManoMotionSetup:.cctor () (at Assets/Editor/ManoMotionSetup.cs:34)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Editor/ManoMotionSetup.cs Line: 34)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.322 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3169 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.4 MB.
+System memory in use after: 164.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4070.
+Total: 2.663600 ms (FindLiveObjects: 0.259200 ms CreateObjectMapping: 0.138100 ms MarkObjects: 2.213700 ms  DeleteObjects: 0.051700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 25.170054 seconds.
+  path: Assets/Scripts/GameMenu.cs
+  artifactKey: Guid(bcea53d7ea4bd3a45972ea950e7cf0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameMenu.cs using Guid(bcea53d7ea4bd3a45972ea950e7cf0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b6e27675d92be233b1f49096008536') in 0.024115 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003952 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image B:\Users\Julian\Documents\GitHub\prog web\HandTracking\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image B:\Users\Julian\Documents\GitHub\prog web\HandTracking\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Setting up ManoMotion Library Requirements
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ManoMotionSetup:.cctor () (at Assets/Editor/ManoMotionSetup.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Editor/ManoMotionSetup.cs Line: 21)
+
+Successfully set up ManoMotion Library Requirements
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ManoMotionSetup:.cctor () (at Assets/Editor/ManoMotionSetup.cs:34)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Editor/ManoMotionSetup.cs Line: 34)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.233 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3170 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.5 MB.
+System memory in use after: 164.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4075.
+Total: 2.566100 ms (FindLiveObjects: 0.503500 ms CreateObjectMapping: 0.167600 ms MarkObjects: 1.874200 ms  DeleteObjects: 0.019900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024711 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image B:\Users\Julian\Documents\GitHub\prog web\HandTracking\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image B:\Users\Julian\Documents\GitHub\prog web\HandTracking\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Setting up ManoMotion Library Requirements
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ManoMotionSetup:.cctor () (at Assets/Editor/ManoMotionSetup.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Editor/ManoMotionSetup.cs Line: 21)
+
+Successfully set up ManoMotion Library Requirements
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ManoMotionSetup:.cctor () (at Assets/Editor/ManoMotionSetup.cs:34)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Editor/ManoMotionSetup.cs Line: 34)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.827 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3170 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.5 MB.
+System memory in use after: 164.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4078.
+Total: 2.740500 ms (FindLiveObjects: 0.277100 ms CreateObjectMapping: 0.151900 ms MarkObjects: 2.242900 ms  DeleteObjects: 0.067200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005566 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image B:\Users\Julian\Documents\GitHub\prog web\HandTracking\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image B:\Users\Julian\Documents\GitHub\prog web\HandTracking\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Setting up ManoMotion Library Requirements
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ManoMotionSetup:.cctor () (at Assets/Editor/ManoMotionSetup.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Editor/ManoMotionSetup.cs Line: 21)
+
+Successfully set up ManoMotion Library Requirements
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ManoMotionSetup:.cctor () (at Assets/Editor/ManoMotionSetup.cs:34)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Editor/ManoMotionSetup.cs Line: 34)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.519 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 4.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3171 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.8 MB.
+System memory in use after: 165.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4082.
+Total: 3.846500 ms (FindLiveObjects: 0.426700 ms CreateObjectMapping: 0.280500 ms MarkObjects: 3.094600 ms  DeleteObjects: 0.043100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 21544.123833 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a0f51e297bba01ab3ea82ebb8972db') in 0.053751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 124.935040 seconds.
+  path: Assets/Prefabs/BrickCube Variant.prefab
+  artifactKey: Guid(d48ca4e500bbae54dbc25c574eb812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BrickCube Variant.prefab using Guid(d48ca4e500bbae54dbc25c574eb812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5622c4ec24dea0df73b1ddfa58477d0') in 0.097742 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003981 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image B:\Users\Julian\Documents\GitHub\prog web\HandTracking\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image B:\Users\Julian\Documents\GitHub\prog web\HandTracking\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Setting up ManoMotion Library Requirements
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ManoMotionSetup:.cctor () (at Assets/Editor/ManoMotionSetup.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Editor/ManoMotionSetup.cs Line: 21)
+
+Successfully set up ManoMotion Library Requirements
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ManoMotionSetup:.cctor () (at Assets/Editor/ManoMotionSetup.cs:34)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Editor/ManoMotionSetup.cs Line: 34)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.324 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3171 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.8 MB.
+System memory in use after: 165.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4087.
+Total: 3.287400 ms (FindLiveObjects: 0.270200 ms CreateObjectMapping: 0.222700 ms MarkObjects: 2.741900 ms  DeleteObjects: 0.051300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.0 MB.
+System memory in use after: 102.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 4088.
+Total: 3.393900 ms (FindLiveObjects: 0.317800 ms CreateObjectMapping: 0.160100 ms MarkObjects: 2.876500 ms  DeleteObjects: 0.037900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003772 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image B:\Users\Julian\Documents\GitHub\prog web\HandTracking\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image B:\Users\Julian\Documents\GitHub\prog web\HandTracking\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Setting up ManoMotion Library Requirements
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ManoMotionSetup:.cctor () (at Assets/Editor/ManoMotionSetup.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Editor/ManoMotionSetup.cs Line: 21)
+
+Successfully set up ManoMotion Library Requirements
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ManoMotionSetup:.cctor () (at Assets/Editor/ManoMotionSetup.cs:34)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Editor/ManoMotionSetup.cs Line: 34)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.319 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3170 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.6 MB.
+System memory in use after: 164.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4092.
+Total: 2.467700 ms (FindLiveObjects: 0.272700 ms CreateObjectMapping: 0.157600 ms MarkObjects: 2.018900 ms  DeleteObjects: 0.017600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.7 MB.
+System memory in use after: 102.0 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 4092.
+Total: 3.123900 ms (FindLiveObjects: 0.272600 ms CreateObjectMapping: 0.154100 ms MarkObjects: 2.679400 ms  DeleteObjects: 0.016800 ms)
+

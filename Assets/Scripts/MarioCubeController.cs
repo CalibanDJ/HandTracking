@@ -14,10 +14,12 @@ public class MarioCubeController : MonoBehaviour
     
     [SerializeField]
     public GameObject cube;
+
     private GameObject spawnPrefab;
 
     private string handTag = "Player";
     private Renderer cubeRenderer;
+    
 
     static List<ARRaycastHit> hits = new List<ARRaycastHit>();
 
@@ -48,18 +50,12 @@ public class MarioCubeController : MonoBehaviour
         if (ManomotionManager.Instance.Hand_infos[0].hand_info.gesture_info.mano_gesture_trigger == click)
         {
             if (spawnPrefab == null)
-                spawnPrefab = Instantiate(cube, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
+                spawnPrefab = Instantiate(cube, new Vector3(transform.position.x, transform.position.y + (transform.localScale.y * 10), transform.position.z), Quaternion.identity);
             else
-                spawnPrefab.transform.position = transform.position;
+                spawnPrefab.transform.position = new Vector3(transform.position.x, transform.position.y + (transform.localScale.y * 10), transform.position.z);
         }
     }
-
-
-  
-    public void TakeASreenshot()
-    {
-        
-    }
+    
 
 
 
