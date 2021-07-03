@@ -273,7 +273,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 62.75
   m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -360,8 +360,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5143783}
   m_AnchorMax: {x: 0.5, y: 0.5143783}
-  m_AnchoredPosition: {x: 61, y: -27}
-  m_SizeDelta: {x: 468.3399, y: 185.0461}
+  m_AnchoredPosition: {x: 53, y: -74.8}
+  m_SizeDelta: {x: 315.9628, y: 90.3652}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &258303533
 MonoBehaviour:
@@ -640,8 +640,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5143783}
   m_AnchorMax: {x: 0.5, y: 0.5143783}
-  m_AnchoredPosition: {x: 65, y: 48}
-  m_SizeDelta: {x: 468.3399, y: 185.0461}
+  m_AnchoredPosition: {x: 57, y: 29}
+  m_SizeDelta: {x: 468.3399, y: 95.7913}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &407323364
 MonoBehaviour:
@@ -939,7 +939,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: INSTRUCTIONS
+  m_text: 'INSTRUCTIONS
+
+
+    Place you hand in "OK position" in order to place a
+    block.
+
+
+    Hit the block with your hand to take a picture.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2056,8 +2063,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5143783}
   m_AnchorMax: {x: 0.5, y: 0.5143783}
-  m_AnchoredPosition: {x: 60.66829, y: -88.94928}
-  m_SizeDelta: {x: 342.42, y: 121.35}
+  m_AnchoredPosition: {x: 48, y: -181.7}
+  m_SizeDelta: {x: 342.42, y: 80.5478}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1719704181
 MonoBehaviour:
